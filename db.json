@@ -47,6 +47,12 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "Wheezy",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVlXFSHO7NP61SitQKPWHn3kH_iAwP1o8cvg&usqp=CAU",
+      "Likes": 0,
+      "id": 9
     }
   ]
 }
