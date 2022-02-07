@@ -14,7 +14,7 @@ function ToyCard({ toy, handleDelete, onUpdateToy }) {
 
    
   function handleAddLike(){
-    setLikes(toy.likes+1)
+    setLikes(likes+1)
     fetch(`http://localhost:3001/toys/${toy.id}`, {
         method: "PATCH",
         headers: {
@@ -37,7 +37,7 @@ function ToyCard({ toy, handleDelete, onUpdateToy }) {
         alt={toy.name}
         className="toy-avatar"
       />
-      <p>{toy.likes} Likes </p>
+      <p>{likes} Likes </p>
       <button className="like-btn" onClick={handleAddLike}>Like {"<3"}</button>
       <button className="del-btn" onClick={handleClick}>Donate to GoodWill</button>
     </div>
